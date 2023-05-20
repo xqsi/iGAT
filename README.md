@@ -20,7 +20,7 @@ python -u train/train_igat_dverge_cifar100.py --model-num 8 --num-classes 100 --
 ## Testing
 PGD
 ```Python
-python -u test_PGD.py --model-file "./ckpts/iGAT_ADP_cifar10_1.pth" --leaky-relu 0
+python -u test_PGD.py --model-file "./ckpts/iGAT_ADP_cifar10_1.pth" --leaky-relu 1
 ```
 CW
 ```Python
